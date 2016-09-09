@@ -44,6 +44,15 @@ group :development, :test do
 
   #RSpec gem
   gem 'rspec-rails', '~> 3.2.1'
+
+  #bootstrap gem
+  gem 'bootstrap-sass', '~>3.3'
+  
+  #font-awesome
+  gem 'font-awesome-rails', '~> 4.3'
+
+  #Simple form
+  gem 'simple_form', '~>3.1.0'
 end
 
 group :test do
