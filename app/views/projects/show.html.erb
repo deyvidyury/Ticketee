@@ -8,6 +8,7 @@
 			<%= link_to "Edit Project", 
 			edit_project_path(@project), class: "edit" %>
 		</li>
+		<% admins_only do %>
 		<li>
 			<%= link_to "Delete Project",
 			    admin_project_path(@project),
@@ -16,6 +17,7 @@
 			    class: "delete"
 			%>			
 		</li>
+		<% end %>
 	</ul>
 </header>
 
